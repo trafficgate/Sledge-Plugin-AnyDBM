@@ -7,6 +7,9 @@ package Sledge::Session::AnyDBM;
 #
 
 use strict;
+use vars qw($VERSION);
+$VERSION = 0.01;
+
 use base qw(Sledge::Session);
 
 use File::Spec;
